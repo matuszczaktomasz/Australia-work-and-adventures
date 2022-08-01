@@ -1,0 +1,16 @@
+@use './colors' as *;
+
+@mixin heroImages($bgImg) {
+    background-image: $img-gradient, url($bgImg);
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin btnStyle {
+    padding: 1em;
+    color: $pure-white;
+    border: none;
+    border-radius: 8px;
+    background-color: $second-color;
+    cursor: pointer;
+}
